@@ -1,1 +1,26 @@
-<p>inicio works!</p>
+<h1>Hola, este es mi primer proyecto </h1>
+<h2>Bienvenidos ADSO</h2>
+
+<h2>{{ Bienvenidos }} </h2>
+
+<br>
+<h2>Antigua sintaxia</h2>
+
+<ul>
+  <li>Cuadernos</li>
+  <li>Gorras</li>
+  <li>Gafas</li>
+</ul>
+
+<ul>
+  <li *ngFor="let objeto of Estudiantes" >{{objeto}}
+  </li>
+</ul>
+
+<br>
+<h2> Nueva sintaxi</h2>
+<ul> 
+  @for (objeto of Estudiantes; track objeto){
+    <li>{{objeto}}</li>
+  }
+</ul>
