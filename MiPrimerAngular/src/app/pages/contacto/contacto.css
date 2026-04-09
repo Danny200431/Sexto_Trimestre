@@ -1,0 +1,103 @@
+.contenedor{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:#f2f2f2;
+}
+
+.formulario{
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 0 15px rgba(0,0,0,0.1);
+    width:350px;
+}
+
+.formulario h2{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.formulario label{
+    display:block;
+    margin-top:10px;
+    font-weight:bold;
+}
+
+.formulario input,
+.formulario select{
+    width:100%;
+    padding:8px;
+    margin-top:5px;
+    border-radius:5px;
+    border:1px solid #ccc;
+}
+
+.check{
+    margin-top:15px;
+    display:flex;
+    gap:8px;
+    font-size:14px;
+}
+
+button{
+    margin-top:20px;
+    width:100%;
+    padding:10px;
+    background:#007bff;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#0056b3;
+}
+.contenedor{
+    display:flex;
+    justify-content:center;
+    margin-top:40px;
+}
+
+.formulario{
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+    width:350px;
+}
+
+.formulario label{
+    display:block;
+    margin-top:10px;
+    font-weight:bold;
+}
+
+.formulario input,
+.formulario select{
+    width:100%;
+    padding:8px;
+    margin-top:5px;
+    border-radius:5px;
+    border:1px solid #ccc;
+}
+
+.check{
+    margin-top:15px;
+    display:flex;
+    gap:8px;
+    font-size:14px;
+}
+
+button{
+    margin-top:20px;
+    width:100%;
+    padding:10px;
+    background:#007bff;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
