@@ -8,17 +8,17 @@ export const routes: Routes = [
     path: ' Inicio', 
     component: Inicio
 
-  }
+  },
   { 
     path: ' Ejercicio', 
     component: Ejercicio
 
-  }
+  },
   { 
     path: ' Contacto', 
     component: Contacto
 
-  }
+  },
 
 ];
 
